@@ -1,0 +1,52 @@
+body {
+    background-color: #b3b3b3;
+    font-family:Sofadi;
+}
+h1{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px green, 0 0 5px darkgreen;
+}
+#centro{
+    width: 650px;
+    height: 100px;
+    position: relative;
+    left: 500px;
+    top: 250px;
+}
+#header{
+    width: 900px;
+    height: 50px;
+    position: relative;
+    left: 400px;
+    top: 10px;
+}
+#contenedor{
+    width: 900px;
+    height: 415px;
+    position: relative;
+    left: 225px;
+}
+#botonesHeader{
+    width: 900px;
+    height: 50px;
+    position: relative;
+    left: 225px;
+}
+#botonesHeader li{
+    float: right;
+    display: inline;
+    text-align: center;
+    margin: 0 10px 0 0;
+}
+#footer{
+    width: 900px;
+    height: 100px;
+    position: relative;
+    left: 225px;
+    top: 5px;
+}
+@font-face
+{
+    font-family:Sofadi;
+    src:url("../fonts/SofadiOne-Regular.eot"),url("../fonts/SofadiOne-Regular.ttf");
+}
